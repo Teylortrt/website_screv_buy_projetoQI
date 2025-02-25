@@ -1,0 +1,133 @@
+body {
+    background-color: #897054;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: black;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.left-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.center-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-menu img {
+    width: 40px;
+    height: 40px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.search-bar i {
+    margin-left: 10px;
+    color: black;
+}
+
+.search-bar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+    color: black;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.middle-box {
+    background: #757575;
+    width: 900px;
+    height: 520px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
